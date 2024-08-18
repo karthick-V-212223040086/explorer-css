@@ -1,0 +1,193 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+header img {
+  width: 150px;
+}
+
+header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #7a1755;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+.hero-text {
+  width: 60%;
+}
+
+.hero-text h1 {
+  font-size: 2.5vw;
+  color: #7a1755;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 4vw;
+  color: #333;
+}
+
+.hero-text .highlight {
+  color: #7a1755;
+  font-weight: bold;
+}
+
+.hero-text .hero-select {
+  margin-top: 20px;
+}
+
+.hero-text select {
+  padding: 10px;
+  font-size: 1.2vw;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  font-size: 1.2vw;
+  color: white;
+  background-color: #7a1755;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-section img {
+  width: 40vw;
+}
+
+.destinations {
+  padding: 50px;
+  text-align: center;
+}
+
+.destinations h2 {
+  font-size: 2vw;
+  color: #7a1755;
+  margin-bottom: 10px;
+}
+
+.destinations p {
+  font-size: 1.2vw;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.destination-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.destination-card {
+  width: 30%;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding: 15px;
+}
+
+.destination-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.destination-card h3 {
+  font-size: 1.5vw;
+  color: #7a1755;
+  margin-bottom: 10px;
+}
+
+.destination-card .location {
+  font-size: 1vw;
+  color: #7a1755;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.destination-card p {
+  font-size: 1vw;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+
+.destination-card .read-more {
+  font-size: 1vw;
+  color: #7a1755;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-section {
+  padding: 50px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2vw;
+  color: #7a1755;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2vw;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.contact-section form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-section input[type="text"],
+.contact-section select {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2vw;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  padding: 15px 20px;
+  font-size: 1.2vw;
+  color: white;
+  background-color: #7a1755;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
